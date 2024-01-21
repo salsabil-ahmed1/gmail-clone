@@ -5,13 +5,20 @@ import { Grid } from "@mui/material";
 
 const Body = () => {
     return (
-    <Grid>
-        <Grid item>
-        <Sidebar></Sidebar>
+    <Grid container>
+        <Grid item xs={2}>
+            <Sidebar></Sidebar>
         </Grid>
-        <Grid item >
-        <MailList></MailList>
+        <Grid item xs={10}>
+            Hello
         </Grid>
+        {
+            /**
+             * <Grid item >
+             * <MailList></MailList>
+             * </Grid>
+             */
+        }
     </Grid>
     );
   };

@@ -6,18 +6,16 @@ import Body from './components/Body';
 function App() {
   return (
     <div>
-      <Header></Header>
-      {/** 
-      <Grid container>
-        <Grid item xs={6}>
-          <Header /> 
+      <Grid>
+        <Grid item xs={12}>
+          <Header></Header>
         </Grid>
-        <Grid item xs={6}>
-          <Body />
+        <Grid item xs={12}>
+          <Body></Body>
         </Grid>
+
       </Grid>
-      */
-      }
+      
     </div>
   );
 }

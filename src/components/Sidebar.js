@@ -6,19 +6,20 @@ import ListItemText from '@mui/material/ListItemText';
 
 const Sidebar = () => {
   return (
-    <Drawer variant="permanent" anchor="left">
-      <List>
-        <ListItem button>
-          <ListItemText primary="Inbox" />
-        </ListItem>
-        <ListItem button>
-          <ListItemText primary="Sent" />
-        </ListItem>
-        <ListItem button>
-          <ListItemText primary="Drafts" />
-        </ListItem>
-      </List>
-    </Drawer>
+    <div style={{backgroundColor:"#F9F9F9", minHeight:"100vh", paddingTop:"1vw"}}>
+      <div style={{marginLeft:"1vw", display:"flex", alignItems:"center", borderRadius:"20px", backgroundColor:"#BEE0FF"}}>
+        <h4 style={{marginLeft:"1.6vw", fontWeight:"400", fontSize:"1vw"}}>Compose</h4>
+      </div>
+      <div style={{marginLeft:"1vw", display:"flex", alignItems:"center"}}>
+        <h4 style={{marginLeft:"1.6vw", fontWeight:"400", fontSize:"1.3vw"}}>Inbox</h4>
+      </div>
+      <div style={{marginLeft:"1vw", display:"flex", alignItems:"center"}}>
+        <h4 style={{marginLeft:"1.6vw", fontWeight:"400", fontSize:"1.3vw"}}>Sent</h4>
+      </div>
+      <div style={{marginLeft:"1vw", display:"flex", alignItems:"center"}}>
+        <h4 style={{marginLeft:"1.6vw", fontWeight:"400", fontSize:"1.3vw"}}>Drafts</h4>
+      </div>
+    </div>
   );
 };
 
