@@ -6,18 +6,18 @@ import Body from './components/Body';
 function App() {
   return (
     <div>
-      {/* <div style={{ display: 'flex' }}>
-        /* <Sidebar />
-        <MailList />
-      </div> */} 
+      <Header></Header>
+      {/** 
       <Grid container>
-        <Grid item>
+        <Grid item xs={6}>
           <Header /> 
         </Grid>
-        <Grid item>
+        <Grid item xs={6}>
           <Body />
         </Grid>
       </Grid>
+      */
+      }
     </div>
   );
 }
